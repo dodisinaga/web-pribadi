@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: brown;
+}
+#ul_nav{
+    list-style: none;
+    margin: 0; 
+    text-align: center;
+}
+#ul_nav li{
+    display: inline-block;
+    margin: 18px;
+}
+#ul_nav li a{
+    text-decoration: none;
+    color: black;
+}
+#ul_nav li a:hover{
+    color: white;
+}
+/*Dashboard*/
+#dashboard{
+    background-color: bisque;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0;
+}
+#dashboard h1{
+    font-size: 2.5rem;
+}
+/*about me*/
+#profile {
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    padding: 50px 20px;
+    gap: 40px; 
+    background-color: brown;
+    height: 100vh;
+}
+
+.teks_profile{
+ max-width: 400px;
+}
+.gambar_profile{
+    background-color: aqua;
+    border: 1px;
+}
+/*Family*/
+#keluarga{
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.article_header h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.keluarga_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#keluarga p{
+    margin: 10px;
+    padding: 18px;
+    text-align: justify;
+}
+#pendidikan{
+    height: 100vh;
+    background-color: brown;
+}
+#motto{
+    height: 100vh;
+    background-color: bisque;
+}
+footer{
+    background-color: brown;
+}
+footer ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
